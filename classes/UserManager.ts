@@ -1,6 +1,6 @@
-import {User} from '../models/User';
-import {UserInput} from '../types/UserInput';
-import {UserUpdate} from '../types/UserUpdate';
+import {User} from '../interfaces/User';
+import {UserInput} from '../types/UserTypes';
+import {UserUpdate} from '../types/UserTypes';
 import {IUserManager} from '../interfaces/IUserManager';
 
 export class UserManager implements IUserManager{

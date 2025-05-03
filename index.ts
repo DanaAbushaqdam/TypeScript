@@ -1,5 +1,5 @@
 import { UserManager } from './classes/UserManager';
-import { Role } from './models/Role';
+import { Role } from './enums/Role';
 
 
 const manager = new UserManager();
